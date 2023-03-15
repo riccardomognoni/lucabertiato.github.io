@@ -44,6 +44,7 @@ function calcola() {
         risultato = numUno * numDue;
     else{
         alert("impossibile eseguire il calcolo");
+        return;
     }
 
     document.getElementById("display").innerHTML = risultato;
