@@ -46,6 +46,9 @@ function calcola() {
         alert("impossibile eseguire il calcolo");
         return;
     }
-
+    
+    numUno = "";
+    numDue = "";
+    op = "";
     document.getElementById("display").innerHTML = risultato;
 }
