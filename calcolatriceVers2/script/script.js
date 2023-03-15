@@ -11,8 +11,11 @@ function addChar(car) {
     }
 
     //se si ha premuto il tasto cancella tutto
-    else if (car == 'ce')
+    else if (car == 'ce'){
+        numUno = 0;
+        op = "";
         document.getElementById("display").innerHTML = "";
+    }
     else
         document.getElementById("display").innerHTML = corrente + car;
 }
