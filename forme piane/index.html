@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>figure piane</title>
+        <!--metto il foglio di stile-->
+        <link href="style/style.css" rel="stylesheet" type="text/css">
+        <!--codice java script-->
+        <script src = "script/script.js"></script>
+    </head>
+    <body>
+        <form name="perimetro" onsubmit="return calcola();">
+            <table>
+                <tr>
+                    <td>Figuara:</td>
+                    <td>
+                        <select name="figura">
+                            <option value="nessuna" selected></option>
+                            <option value="triangolo">triangolo</option>
+                            <option value="quadrato">quadrato</option>
+                            <option value="pentagono">pentagono</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Misura del lato:</td>
+                    <td>
+                        <!--textbox-->
+                        <input type="number" name="misura" size="12px" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--bottone-->
+                        <input type="submit" value="invia">
+                    </td>
+                    <td>
+                        <!--reset-->
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
