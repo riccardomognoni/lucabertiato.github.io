@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>figure piane</title>
+        <title>calcolo perimetro di figure piane</title>
         <!--metto il foglio di stile-->
         <link href="style/style.css" rel="stylesheet" type="text/css">
         <!--codice java script-->
         <script src = "script/script.js"></script>
     </head>
     <body>
-        <form name="perimetro" onsubmit="return calcola();">
+        <form name="perimetro" onsubmit="return calcola();" onreset="return cancTutto()">
             <table>
                 <tr>
                     <td>Figuara:</td>
@@ -40,5 +40,10 @@
                 </tr>
             </table>
         </form>
+        <p id = "feedback">FEEDBACK:<br></p>
+        <!-- immagine casa che ritorna alla home -->
+        <p style="text-align:center">
+            <a href="https://lucabertiato.github.io/index_home.html"><img src="images\home.svg" alt="torna alla home" style = "width:2%;height:2%;" ></a>
+        </p>
     </body>
 </html>
